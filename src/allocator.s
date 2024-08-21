@@ -14,6 +14,8 @@ _memcpy:
 .done:
     ret
 
+# This is the basic implementation but I need to take some time to implement some data structures more efficient for a proper malloc implementation
+# I have to look more but this shit is cool already
 .globl _malloc
 _malloc:
     movq $0x9, %rax
